@@ -1,0 +1,61 @@
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd was successful.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 1 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 1 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 2 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 1 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 2 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 2 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 4 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 2 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd was successful.
+# Compile of P1_B00_Puch_Camach_Gerard_1.vhd failed with 1 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 1 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd was successful.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd failed with 1 errors.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd was successful.
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd was successful.
+vsim -gui work.banc_proves(test)
+# vsim -gui work.banc_proves(test) 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading std.standard
+# Loading work.banc_proves(test)#1
+# Loading work.circuit(estructural)#1
+# Loading work.dec2a4(ifthen)#1
+# Loading work.nand2(logicaretard)#1
+add wave -position end  sim:/banc_proves/dada
+add wave -position end  sim:/banc_proves/control
+add wave -position end  sim:/banc_proves/funcio
+run -all
+# Break key hit 
+# Break in Process line__121 at F:/UB/DDB/exam P4/P4_B00_Puch_Camacho_Gerard_circuit.vhd line 121
+# Causality operation skipped due to absence of debug database file
+quit -sim
+vsim -gui work.banc_proves(test)
+# vsim -gui work.banc_proves(test) 
+# Loading std.standard
+# Loading work.banc_proves(test)#1
+# Loading work.circuit(estructural)#1
+# Loading work.dec2a4(ifthen)#1
+# Loading work.nand2(logicaretard)#1
+# Load canceled
+run
+run -continue
+run -all
+# Break key hit 
+# Break in Architecture logicaretard at F:/UB/DDB/exam P4/P4_B00_Puch_Camacho_Gerard_circuit.vhd line 15
+vsim -gui work.banc_proves(test)
+# vsim -gui work.banc_proves(test) 
+# Loading std.standard
+# Loading work.banc_proves(test)#1
+# Loading work.circuit(estructural)#1
+# Loading work.dec2a4(ifthen)#1
+# Loading work.nand2(logicaretard)#1
+add wave -position end  sim:/banc_proves/dada
+add wave -position end  sim:/banc_proves/control
+add wave -position end  sim:/banc_proves/funcio
+run -all
+# Break key hit 
+# Break in Process line__121 at F:/UB/DDB/exam P4/P4_B00_Puch_Camacho_Gerard_circuit.vhd line 121
+quit -sim
+# Compile of P4_B00_Puch_Camacho_Gerard_circuit.vhd was successful.

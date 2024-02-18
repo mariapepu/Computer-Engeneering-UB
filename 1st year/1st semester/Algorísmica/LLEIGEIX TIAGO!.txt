@@ -1,0 +1,13 @@
+Hola Tiago, aixo es la carpeta q tinc de la uni. la he mig ordenat.
+Has de fer les coses asi:
+1r has de fer un portfolis de problemes(x exemple el primer)
+a continuacio has de fer la sessio de lab q correspon. (x exeple el lab 1)
+
+PER MOLT FACIL QUE ET SEMBLI ES IMPORTANT QUE NO T'EN DEIXIS CAP PER FER O NO SABRAS FER EL SEGUENT.
+aquesta asignatura tensenya a fer algoritmes, hi ha coses tan dificils que ni jo sabia fer. i 
+pensa que a mi em donaven classe, aixi que no passa res si hi ha coses q no et surten, que ets petit encara i no has pres cap classe. Si t'encalles sempre pots buscar a stack overflow.
+
+això ha de servirper que gaudeixis ehh si no et surt no ofuscarse q es un nivell molt alt. 
+Per cert amb aixo no aprendras tot, aixo es python+algoritmes. per a fer un programa funcional de python hauries d'aprendre python orientat a objectes. Pero el primer es aprendre be python.
+
+espero que et vagin be!! anim!!

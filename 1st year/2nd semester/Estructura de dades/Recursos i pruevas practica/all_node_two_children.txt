@@ -1,0 +1,17 @@
+template <class K, class V>
+bool BSTree<K, V>::allNodeTwoChildren() const {
+    if (isEmpty())
+        throw invalid_argument("Empty BST");
+    return allNodeTwoChildren(getRoot());
+}
+
+//Comprova si tots el nodes tenen dos fills
+template <class K, class V>
+bool BSTree<K, V>::allNodeTwoChildren(Position<K,V>* node) const {
+    if (!node->isLeaf()) {
+        if (node->left() == nullptr || node->right() == nullptr)
+            return false;
+        return allNodeTwoChildren(node->left()) && allNodeTwoChildren(node->right());
+    }
+    return true;
+}

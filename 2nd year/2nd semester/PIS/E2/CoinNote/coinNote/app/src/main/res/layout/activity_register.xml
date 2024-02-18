@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".view.Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/fondo2">
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="¡Bienvenido/a!"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Crea una cuenta nueva"
+            android:textSize="20dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña (mínimo 8 caracteres)"
+            android:inputType="textPassword" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="25dp"
+            android:alpha="11"
+            android:autoText="false"
+            android:background="@drawable/boton_register"
+            android:text="Register"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/ButtonText"
+            app:backgroundTint="#E88CDB" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <View
+                android:layout_width="160dp"
+                android:layout_height="1dp"
+                android:layout_margin="12dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#003C3F41"
+                android:paddingBottom="8dp"
+                android:text="or" />
+
+            <View
+                android:layout_width="160dp"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentLeft="false"
+                android:layout_marginTop="12dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentBottom="false"
+                android:layout_centerInParent="false"
+                android:layout_centerHorizontal="false"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@id/or"
+                android:background="@android:color/black" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:text="Social Media Sign Up" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/google_boton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="115dp"
+                android:layout_marginLeft="115dp"
+                android:background="@drawable/google"
+                android:text="Button"
+                 />
+
+            <ImageButton
+                android:id="@+id/facebook_boton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignLeft="@id/google_boton"
+                android:background="@drawable/facebook"
+                android:text="Button"
+                 />
+
+
+            <ImageButton
+                android:id="@+id/microsoft_boton"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignLeft="@id/facebook_boton"
+                android:background="@drawable/microsoft"
+                android:text="Button"
+                />
+
+
+            <TextView
+                android:id="@+id/tiene_cuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/google_boton"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:paddingTop="30dp"
+                android:text="¿ Ya tienes una cuenta ?" />
+
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/google_boton"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/tiene_cuenta"
+                android:background="#00000000"
+                android:paddingTop="26dp"
+                android:text="Sign in"
+                android:textColor="@color/Button" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

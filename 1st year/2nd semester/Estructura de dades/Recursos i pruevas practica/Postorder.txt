@@ -1,0 +1,15 @@
+void bst::postorder{
+	postorder_rec(get_root());
+}
+
+void bst::postorder_aux(nodetree* node){
+	if (node!=nullptr){
+		if (node.hasLeft()){
+			postorder_aux(node.getLeft());
+		}
+		if (node.hasRight()){
+			postorder_aux(node.getRight());
+		}
+		cout<<node.getElement();
+	}
+}

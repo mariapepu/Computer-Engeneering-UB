@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--tools:context=".CrearGastoActivity">-->
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Primary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteY="1dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="210dp"
+                android:layout_height="39dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/atras"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    app:srcCompat="@drawable/flecha_atras"
+                    tools:ignore="VectorDrawableCompat" />
+
+
+
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/tick"
+                android:layout_width="38dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/Primary"
+                android:gravity="center"
+                app:srcCompat="@drawable/guardar"
+                tools:ignore="VectorDrawableCompat" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/mes_año"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" Mes y año"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" Nuevo gasto"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/Text"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="12dp"
+            android:background="@android:color/black" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:barrierDirection="left" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="385dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="199dp"
+                android:layout_height="411dp"
+                android:layout_weight="1">
+
+                <Space
+                    android:id="@+id/Espacio"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/Concepto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Espacio"
+                    android:text="Concepto"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/Escriba_el_concepto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Concepto"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="0dp"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Escríba el concepto" />
+
+                <TextView
+                    android:id="@+id/Gasto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Escriba_el_concepto"
+                    android:hint="Gasto"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextGasto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Gasto"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:hint="Introduzca el gasto" />
+
+                <TextView
+                    android:id="@+id/Fecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editTextGasto"
+                    android:text="Fecha"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Fecha"
+                    android:ems="10"
+                    android:text="Seleccione la fecha" />
+
+            </RelativeLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/agregar_imagen_boton_flotante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="16dp"
+                android:src="@drawable/boton_add" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

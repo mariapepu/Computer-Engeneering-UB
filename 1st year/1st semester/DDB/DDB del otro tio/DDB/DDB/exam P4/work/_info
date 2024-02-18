@@ -1,0 +1,369 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Program Files (x86)/QuestaSim/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+VS;h@B;Vk^:8N0e7C=86P92
+04 11 4 work banc_proves test 1
+=1-989096bc30d9-582c1490-20-c28
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.2c;57
+Z1 dC:/Program Files (x86)/QuestaSim/examples
+!s110 1479283857
+Eand2
+Z2 w1479283436
+Z3 dF:/UB/DDB/exam P4
+Z4 8F:/UB/DDB/exam P4/P4_B00_Puch_Camacho_Gerard_circuit.vhd
+Z5 FF:/UB/DDB/exam P4/P4_B00_Puch_Camacho_Gerard_circuit.vhd
+l0
+L19
+Vbn67hP28b8F5lbn3;PJKi3
+Z6 OL;C;10.2c;57
+32
+Z7 !s110 1479283436
+Z8 !s108 1479283436.283000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:/UB/DDB/exam P4/P4_B00_Puch_Camacho_Gerard_circuit.vhd|
+Z10 !s107 F:/UB/DDB/exam P4/P4_B00_Puch_Camacho_Gerard_circuit.vhd|
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+!s100 j6kV8=1=YOYH9NTX];0[C3
+!i10b 1
+!i111 0
+Alogica_retard
+Z13 DEx4 work 4 and2 0 22 bn67hP28b8F5lbn3;PJKi3
+l30
+L29
+VCTdHkYdjX:MiQhSfNXY:R2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+R12
+!s100 3bcLm`MdjA>n3k60LYgXD2
+!i10b 1
+!i111 0
+Alogica
+R13
+l25
+L24
+Ve`TC]e`odAJPHC];_W:m`3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+R12
+!s100 X^IZbJg8eF`nOPJ`@3bj:3
+!i10b 1
+!i111 0
+Ebanc_proves
+Z14 w1479284968
+R3
+R4
+R5
+l0
+L85
+Vf_<Q<ZNTT3hcS:9V5aR9:0
+!s100 znAX^z_e1643MXV5XT`P52
+R6
+32
+Z15 !s110 1479285016
+!i10b 1
+Z16 !s108 1479285015.661000
+R9
+Z17 !s107 F:/UB/DDB/exam P4/P4_B00_Puch_Camacho_Gerard_circuit.vhd|
+!i111 0
+R11
+R12
+Atest
+Z18 DEx4 work 7 circuit 0 22 2?TJ6F^E<H=2M8cRPda=d1
+Z19 DEx4 work 11 banc_proves 0 22 f_<Q<ZNTT3hcS:9V5aR9:0
+l115
+L91
+Z20 VR<Oc4:T`]VEc`2[db:8<h0
+Z21 !s100 6g=Zc8_Fl?4nlYc=Rc=^32
+R6
+32
+R15
+!i10b 1
+R16
+R9
+R17
+!i111 0
+R11
+R12
+Ecircuit
+R14
+R3
+R4
+R5
+l0
+L40
+V2?TJ6F^E<H=2M8cRPda=d1
+!s100 D9YF=nFmKaZzNVH_?1`ZZ2
+R6
+32
+R15
+!i10b 1
+R16
+R9
+R17
+!i111 0
+R11
+R12
+Aestructural
+Z22 DEx4 work 6 dec2a4 0 22 DFQgckS4QI<QKDjecGA;;0
+Z23 DEx4 work 5 nand2 0 22 EAEe;iVmh0nQBKhB1Pk=30
+R18
+l68
+L45
+Z24 V`j0aHPj6`Sg63;eeGXBe40
+Z25 !s100 l;2=UL92W8P]bgdIUaR]O0
+R6
+32
+R15
+!i10b 1
+R16
+R9
+R17
+!i111 0
+R11
+R12
+Edec2a4
+R14
+R3
+R4
+R5
+l0
+L20
+VDFQgckS4QI<QKDjecGA;;0
+!s100 WH^HK>`[V]z<bmz7TU=Wa1
+R6
+32
+R15
+!i10b 1
+R16
+R9
+R17
+!i111 0
+R11
+R12
+Aifthen
+R22
+l27
+L26
+Z26 VFH7Tj@U:S7ZD<AjK5O2Tz3
+Z27 !s100 ]dW3dd<DCTDm>:UZz=8FJ0
+R6
+32
+R15
+!i10b 1
+R16
+R9
+R17
+!i111 0
+R11
+R12
+Edec2a4m
+R2
+R3
+R4
+R5
+l0
+L72
+V;dkUPb95ik6DW0klAT91W3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+R12
+!s100 ^Az8EOb3=dHVHHGnF:J@H1
+!i10b 1
+!i111 0
+Aestructural
+DEx4 work 6 dec2a4 0 22 ahDjc;_27CjOlg;OSGMAb2
+Z28 DEx4 work 5 nand2 0 22 lE6gPW[SZ@nJY@@]mnNh32
+DEx4 work 7 dec2a4m 0 22 ;dkUPb95ik6DW0klAT91W3
+l100
+L77
+V?H9EYLeD67P`fbhl`=9n@0
+R6
+32
+R7
+R8
+R9
+R10
+R11
+R12
+!s100 aO3HV[k0>DkE@gLSc`ALa3
+!i10b 1
+!i111 0
+Einv
+R2
+R3
+R4
+R5
+l0
+L2
+V4^>1MeAOP0UM?9]5[B8kf2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+R12
+!s100 >Tl75LkKmoIH:SYX4M<SJ3
+!i10b 1
+!i111 0
+Alogica_retard
+Z29 DEx4 work 3 inv 0 22 4^>1MeAOP0UM?9]5[B8kf2
+l14
+L13
+Vg]7ffUUE@NNXLPAV?I7;63
+R6
+32
+R7
+R8
+R9
+R10
+R11
+R12
+!s100 G^nGcf62Czb_cIP>^jn><1
+!i10b 1
+!i111 0
+Alogica
+R29
+l8
+L7
+V=iWTVHXkc`8Bc458i?:?I1
+R6
+32
+R7
+R8
+R9
+R10
+R11
+R12
+!s100 bKmEcCKdilE`1cdSNmcW^1
+!i10b 1
+!i111 0
+Einversor1
+Z30 w1474552834
+R3
+Z31 8F:/UB/DDB/la puta practica 1/P1_B00_Puch_Camach_Gerard_1.vhd
+Z32 FF:/UB/DDB/la puta practica 1/P1_B00_Puch_Camach_Gerard_1.vhd
+l0
+L2
+VBO9nB[P[k=kL0O_C242zT3
+R6
+32
+Z33 !s110 1479283302
+Z34 !s108 1479283302.698000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:/UB/DDB/la puta practica 1/P1_B00_Puch_Camach_Gerard_1.vhd|
+Z36 !s107 F:/UB/DDB/la puta practica 1/P1_B00_Puch_Camach_Gerard_1.vhd|
+R11
+R12
+!s100 N3JXQT9<2;kReDjg9^bGg1
+!i10b 1
+!i111 0
+Alogica
+DEx4 work 9 inversor1 0 22 BO9nB[P[k=kL0O_C242zT3
+l7
+L6
+V53c7ElUdlHTF:VjSTJ8A;1
+R6
+32
+R33
+R34
+R35
+R36
+R11
+R12
+!s100 0KcUV<0PQGL`2oQU7N1a31
+!i10b 1
+!i111 0
+Enand2
+R14
+R3
+R4
+R5
+l0
+L3
+VEAEe;iVmh0nQBKhB1Pk=30
+!s100 4AAbGVHCOeaZe`aE]^oOP1
+R6
+32
+Z37 !s110 1479285015
+!i10b 1
+R16
+R9
+R17
+!i111 0
+R11
+R12
+Alogicaretard
+R23
+l14
+L13
+Z38 VI2IgA1?ZbV1YWPTIae^Z]1
+Z39 !s100 eP_]c]=3^XJCl2]S0GdI62
+R6
+32
+R37
+!i10b 1
+R16
+R9
+R17
+!i111 0
+R11
+R12
+Alogica
+R23
+l9
+L8
+Z40 Vz:J^6B[;Y06_]VBaEzgC22
+Z41 !s100 5dj]kEPCFDCkE4[P1^nff3
+R6
+32
+R37
+!i10b 1
+R16
+R9
+R17
+!i111 0
+R11
+R12
+Alogica_retard
+R28
+l46
+L45
+VeD;joRPWWh8^GKH5cZ<8b1
+R6
+32
+R9
+R10
+R11
+R12
+w1479283356
+!s108 1479283357.208000
+!s110 1479283357
+!s100 k[R1U<U;`zOA8z4=zkPiU1
+!i10b 1
+!i111 0

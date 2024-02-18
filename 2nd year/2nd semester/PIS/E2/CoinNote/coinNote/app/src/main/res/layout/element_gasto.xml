@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:background="@drawable/cell">
+
+
+        <TextView
+            android:id="@+id/concepto_element"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:padding="3dip"
+            android:gravity="center"
+            android:text="Concepto "/>
+
+        <ImageButton
+            android:id="@+id/ver_imagen_element"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ver_foto"
+            android:gravity="center"
+            android:layout_alignRight="@id/concepto_element"/>
+        />
+
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/fechaGasto_element"
+        android:gravity="center"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:text="Fecha "
+        android:padding="3dip"
+        android:layout_column="1"
+        android:background="@drawable/cell"
+
+        />
+    <TextView
+        android:id="@+id/gastoCoste_element"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:text="Gasto "
+        android:padding="3dip"
+        android:layout_column="2"
+        android:gravity="center"
+        android:background="@drawable/cell"
+        />
+
+</LinearLayout>

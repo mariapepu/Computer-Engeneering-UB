@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/fondo2">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="338dp"
+            android:layout_height="316dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/logo_sin_fondo"
+            android:contentDescription="Icon app" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="¡Hola!"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="El mejor sitio para \ncontrolar los gastos"
+            android:textSize="25dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/Register_Button"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:alpha="12"
+            android:autoText="false"
+            android:background="@drawable/boton_register"
+            android:text="Register"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/ButtonText"
+            app:backgroundTint="#E88CDB" />
+
+         <Button
+            android:id="@+id/Login_Button"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:alpha="12"
+            android:autoText="false"
+            android:background="@drawable/boton_login"
+            android:text="Login"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/Button"
+            app:backgroundTint="@color/white" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

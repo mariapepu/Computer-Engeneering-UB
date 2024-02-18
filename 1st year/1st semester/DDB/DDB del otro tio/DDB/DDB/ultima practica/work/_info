@@ -1,0 +1,352 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:/Program Files (x86)/QuestaSim/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+Eand2
+Z0 w1481705806
+Z1 dF:/UB/DDB/ultima practica
+Z2 8F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.
+Z3 FF:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.
+l0
+L14
+V`B7T:HHh:f9I6_m:i;SXY2
+!s100 @GBG=06@>;9KfTe[42]cC0
+Z4 OL;C;10.2c;57
+32
+Z5 !s110 1481705806
+!i10b 1
+Z6 !s108 1481705806.424000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.|
+Z8 !s107 F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.|
+!i111 0
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1
+Alogica_retard
+Z11 DEx4 work 4 and2 0 22 `B7T:HHh:f9I6_m:i;SXY2
+l19
+L18
+Z12 Vh;GQ>RKdeOPV8k_k4iZDI3
+Z13 !s100 =V`jiPeO:[:_?YFFdWUP`2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Ebproves
+Z14 w1481541900
+R1
+Z15 8F:/UB/DDB/la puta practica 6/Prev6_B00_Puch_Camacho_Gerard_maquina.vhd
+Z16 FF:/UB/DDB/la puta practica 6/Prev6_B00_Puch_Camacho_Gerard_maquina.vhd
+l0
+L116
+VBPgaOo3K3dXji<m5Q8EJZ1
+R4
+32
+Z17 !s110 1481705512
+Z18 !s108 1481705511.927000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:/UB/DDB/la puta practica 6/Prev6_B00_Puch_Camacho_Gerard_maquina.vhd|
+Z20 !s107 F:/UB/DDB/la puta practica 6/Prev6_B00_Puch_Camacho_Gerard_maquina.vhd|
+R9
+R10
+!s100 GeFK4H1^aXg5YnZ1^5a]b2
+!i10b 1
+!i111 0
+Atest
+Z21 DEx4 work 7 circuit 0 22 O>F9[U`[XRGUhcoB17P0R2
+DEx4 work 7 bproves 0 22 BPgaOo3K3dXji<m5Q8EJZ1
+l129
+L119
+VZWDG_:_7QnRen?W0Zh?QB0
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 HkghZg10DzkJmY@k2e89I2
+!i10b 1
+!i111 0
+Ecircuit
+R14
+R1
+R15
+R16
+l0
+L66
+VO>F9[U`[XRGUhcoB17P0R2
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 9<IBVB;KdC;VZ1`IL_HRK2
+!i10b 1
+!i111 0
+Aestructural
+Z22 DEx4 work 5 ff_jk 0 22 A]2S6O;LO[QC]m[jSi[7T1
+DEx4 work 4 xor2 0 22 ;0>8=nG>ceW4OnR`FDHgN3
+R11
+Z23 DEx4 work 3 inv 0 22 4^>1MeAOP0UM?9]5[B8kf2
+R21
+l99
+L70
+VmP[HS;a[4Kh6[mi[Jn3Ha1
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 :QCnBY1B@jOP7iNiB;L;E2
+!i10b 1
+!i111 0
+Eff_d
+Z24 w1481705806
+R1
+R2
+R3
+l0
+L48
+V0YTdaR9[7B1gj[]OT>XL^0
+!s100 i4n[zUM[5GfRoBZ9H^m^33
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Aifthen
+Z25 DEx4 work 4 ff_d 0 22 0YTdaR9[7B1gj[]OT>XL^0
+l56
+L52
+Z26 Ve>WBkRNZY>jYlSZ]Z^9_N3
+Z27 !s100 44Q9490Oh8jd1Z@U<ECXQ0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Eff_jk
+R14
+R1
+R15
+R16
+l0
+L38
+VA]2S6O;LO[QC]m[jSi[7T1
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 Wi1Mn1Vn?L>=c1HY=WVGS2
+!i10b 1
+!i111 0
+Aifthen
+R22
+l45
+L42
+VCj49HM1mDciaUclP9oI=Q2
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 mQ5zS@L>MIVJWRJN>^6^J1
+!i10b 1
+!i111 0
+Efuncio
+R24
+R1
+R2
+R3
+l0
+L71
+ViSi?l:WGKI6Cmzi17lVK60
+!s100 m=9LiYln@Si76Z=VC2HK53
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Aestructural
+Z28 DEx4 work 4 xor2 0 22 3k7<Jl3Ej_mOH[RPZ1IfG3
+Z29 DEx4 work 3 or3 0 22 a?SJ6KGhbHlb1;R7[0]ig3
+R11
+Z30 DEx4 work 6 funcio 0 22 iSi?l:WGKI6Cmzi17lVK60
+l99
+L75
+Z31 VzYVgo]Yg5J0LgZz?0WB6R0
+Z32 !s100 `HO54QnNSJP@d]^S:hoTG3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Einv
+R24
+R1
+R2
+R3
+l0
+L2
+V4^>1MeAOP0UM?9]5[B8kf2
+!s100 >Tl75LkKmoIH:SYX4M<SJ3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica_retard
+R23
+l8
+L7
+Z33 V[<?I3P?=FO<9FbD2;7dDZ1
+Z34 !s100 EH49O1f<26k6O2TCQO^UO1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Emaquina
+R24
+R1
+R2
+R3
+l0
+L117
+VRB2m[`H>ShTQP_2U0=EUf3
+!s100 :[j7eA@geH79GNim8RK7=1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Eor3
+R24
+R1
+R2
+R3
+l0
+L24
+Va?SJ6KGhbHlb1;R7[0]ig3
+!s100 SM4lMRPWH@_W`K0SnFcWh0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica_retard
+R29
+l29
+L28
+Z35 V;;^7Y0mISd;BV?l6<^mQ_0
+Z36 !s100 i<3]@o=O5[8mQVDT6A57[0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Exor2
+R24
+R1
+R2
+R3
+l0
+L34
+V3k7<Jl3Ej_mOH[RPZ1IfG3
+!s100 m^gT22emC3Laodz^[mUIF2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica_retard
+R28
+l39
+L38
+Z37 VO_FK^GC7mle_]`RS5`[<01
+Z38 !s100 :;iPZ12ILzF7D4lK^XRVC0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10

@@ -1,0 +1,368 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:/Program Files (x86)/QuestaSim/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+Eand2
+Z0 w1477468360
+Z1 dF:/UB/DDB/la puta practica 3
+Z2 8F:/UB/DDB/la puta practica 3/sumador_3bits.vhd
+Z3 FF:/UB/DDB/la puta practica 3/sumador_3bits.vhd
+l0
+L14
+V`B7T:HHh:f9I6_m:i;SXY2
+!s100 @GBG=06@>;9KfTe[42]cC0
+Z4 OL;C;10.2c;57
+32
+Z5 !s110 1477468360
+!i10b 1
+Z6 !s108 1477468360.583000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:/UB/DDB/la puta practica 3/sumador_3bits.vhd|
+Z8 !s107 F:/UB/DDB/la puta practica 3/sumador_3bits.vhd|
+!i111 0
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1
+Alogica
+Z11 DEx4 work 4 and2 0 22 `B7T:HHh:f9I6_m:i;SXY2
+l19
+L18
+Z12 VKRe;Q;64fXdCN`QL8ZV]C2
+Z13 !s100 mPg]a3JF>@mh_BU1Si4KI0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Ebanc_prova
+Z14 w1477465222
+R1
+Z15 8F:/UB/DDB/la puta practica 3/P3_B01_Puch_Camacho_Gerard_comp4bits.vhd
+Z16 FF:/UB/DDB/la puta practica 3/P3_B01_Puch_Camacho_Gerard_comp4bits.vhd
+l0
+L114
+V57;K;IQj`]5?YWOA5BoI`3
+R4
+32
+Z17 !s110 1477465222
+Z18 !s108 1477465221.539000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:/UB/DDB/la puta practica 3/P3_B01_Puch_Camacho_Gerard_comp4bits.vhd|
+Z20 !s107 F:/UB/DDB/la puta practica 3/P3_B01_Puch_Camacho_Gerard_comp4bits.vhd|
+R9
+R10
+!s100 AW_;oRoeHCP89TLglDgX=0
+!i10b 1
+!i111 0
+Atest
+Z21 DEx4 work 16 comparador_4bits 0 22 ^n:E?U5512MkIVLRCWD0g2
+DEx4 work 10 banc_prova 0 22 57;K;IQj`]5?YWOA5BoI`3
+l127
+L117
+V0XX55DjkJa:D`^EW^Pb?;3
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 lm[iMCJCG@b4HNG1I?2c<3
+!i10b 1
+!i111 0
+Ecomparador_2bits
+R14
+R1
+R15
+R16
+l0
+L40
+V4_XY?2Q0]z[WObaJaCDPe0
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 =RQkW^1aY@;9Fn3LOkEYf3
+!i10b 1
+!i111 0
+Aifthen
+Z22 DEx4 work 16 comparador_2bits 0 22 4_XY?2Q0]z[WObaJaCDPe0
+l45
+L44
+VSOOQT`S25?7>L=gzehn8b3
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 :>zL01H[Yg1_TBQTbD;Qm1
+!i10b 1
+!i111 0
+Ecomparador_4bits
+R14
+R1
+R15
+R16
+l0
+L66
+V^n:E?U5512MkIVLRCWD0g2
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 [U04CJQoQ;R_d7=d__Pmn3
+!i10b 1
+!i111 0
+Aestructural
+Z23 DEx4 work 8 portaor2 0 22 MknVE1Ig76Z;H0LhQFEMk1
+Z24 DEx4 work 9 portaand2 0 22 Sk3N[FbH;9XSl2Y6U`<cH0
+R22
+R21
+l96
+L70
+V9KO7hBI7Z?G5hOO[^H_cn2
+R4
+32
+R17
+R18
+R19
+R20
+R9
+R10
+!s100 5JVg2`9eFA63XB5PK;hh^3
+!i10b 1
+!i111 0
+Eor2
+Z25 w1477468360
+R1
+R2
+R3
+l0
+L4
+Vo5WSIb[QzUm1d]fWBI5@O3
+!s100 `ZI>]0g=gNz6MRXzi;=8k1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica
+Z26 DEx4 work 3 or2 0 22 o5WSIb[QzUm1d]fWBI5@O3
+l9
+L8
+Z27 ViX^gZ4j7;S^IjF2ga7m^<0
+Z28 !s100 >go^ng?Lg^L2?G]JRbF]Q1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Eportaand2
+R14
+R1
+R15
+R16
+l0
+L26
+VSk3N[FbH;9XSl2Y6U`<cH0
+R4
+32
+Z29 !s110 1477465221
+R18
+R19
+R20
+R9
+R10
+!s100 lYzI`o^na`SRaiQGN9R[m2
+!i10b 1
+!i111 0
+Alogicaretard
+R24
+l35
+L34
+V66oL?V8X6l[J[U[86>CPC3
+R4
+32
+R29
+R18
+R19
+R20
+R9
+R10
+!s100 33R>90fElESQTWDhYLzMl1
+!i10b 1
+!i111 0
+Eportaor2
+R14
+R1
+R15
+R16
+l0
+L16
+VMknVE1Ig76Z;H0LhQFEMk1
+R4
+32
+R29
+R18
+R19
+R20
+R9
+R10
+!s100 bdWQV3k[I<n6^<1G<fV[W1
+!i10b 1
+!i111 0
+Alogicaretard
+R23
+l21
+L20
+V0:J_ZcY1>d1K:@:E^0[7K1
+R4
+32
+R29
+R18
+R19
+R20
+R9
+R10
+!s100 F;RG@7SF3fN:z8VU0f<_D2
+!i10b 1
+!i111 0
+Esumador_modificat_1bit
+R25
+R1
+R2
+R3
+l0
+L33
+Vm9:70OZFz?6mjXALH30XW1
+!s100 l:32<fR3ne_dJhg6J>8Z?0
+R4
+32
+Z30 !s110 1477468361
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Aestructural
+R26
+R11
+Z31 DEx4 work 4 xor2 0 22 lM3U:3LhjnMLXYdQ04j573
+Z32 DEx4 work 22 sumador_modificat_1bit 0 22 m9:70OZFz?6mjXALH30XW1
+l62
+L37
+Z33 V2ZSie>aP0?J5JGzi4O[[01
+Z34 !s100 zW7QIcF0[Xdbg2bC<lICZ0
+R4
+32
+R30
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Esumador_modificat_3bits
+R25
+R1
+R2
+R3
+l0
+L80
+V0Bl8aD>=Y2<D8X:;3@G8j1
+!s100 fUJT<E<zVNMM]C_dc@Vme2
+R4
+32
+R30
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Aestructura
+R32
+DEx4 work 23 sumador_modificat_3bits 0 22 0Bl8aD>=Y2<D8X:;3@G8j1
+l98
+L86
+V@DKD2Nf[21fTBW]f>Ea[b3
+!s100 39S8NU>MbUM=d2_KGbz5F1
+R4
+32
+R30
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Exor2
+R25
+R1
+R2
+R3
+l0
+L23
+VlM3U:3LhjnMLXYdQ04j573
+!s100 >NALhcOjgT[9lLKDQh7e@1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica
+R31
+l28
+L27
+Z35 VHK87:3b=]7l`^P:oQ1Lme1
+Z36 !s100 k]:MdgjikT]JcjYL94Ic63
+R4
+32
+R30
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10

@@ -1,0 +1,39 @@
+{F:/UB/DDB/la puta practica 3/sumador_1bit.vhd} {1 {vcom -work work -2002 -explicit -vopt {F:/UB/DDB/la puta practica 3/sumador_1bit.vhd}
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity or2
+-- Compiling architecture logica of or2
+-- Compiling entity and2
+-- Compiling architecture logica of and2
+-- Compiling entity xor2
+-- Compiling architecture logica of xor2
+-- Compiling entity sumador_modificat_1bit
+-- Compiling architecture estructural of sumador_modificat_1bit
+-- Loading entity xor2
+-- Loading entity and2
+-- Loading entity or2
+
+} {} {}} {F:/UB/DDB/la puta practica 3/P3_B01_Puch_Camacho_Gerard_comp4bits.vhd} {1 {vcom -work work -2002 -explicit -vopt {F:/UB/DDB/la puta practica 3/P3_B01_Puch_Camacho_Gerard_comp4bits.vhd}
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity portaor2
+-- Compiling architecture logicaretard of portaor2
+-- Compiling entity portaand2
+-- Compiling entity portaor2
+-- Compiling architecture logicaretard of portaor2
+-- Compiling entity portaand2
+-- Compiling architecture logicaretard of portaand2
+-- Compiling architecture logicaretard of portaand2
+-- Loading entity portaand2
+-- Compiling entity comparador_2bits
+-- Compiling architecture ifthen of comparador_2bits
+-- Compiling entity comparador_4bits
+-- Compiling architecture estructural of comparador_4bits
+-- Loading entity comparador_2bits
+-- Loading entity portaand2
+-- Loading entity portaor2
+-- Compiling entity banc_prova
+-- Compiling architecture test of banc_prova
+-- Loading entity comparador_4bits
+
+} {} {}}

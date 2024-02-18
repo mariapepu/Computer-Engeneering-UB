@@ -1,0 +1,35 @@
+ENTITY banc_proves IS
+END banc_proves;
+ARCHITECTURE test OF  banc_proves IS
+COMPONENT porta_and2
+PORT (a, b: IN BIT; z: OUT BIT);
+END COMPONENT;
+COMPONENT porta_or2
+PORT (a, b: IN BIT; z: OUT BIT);
+END COMPONENT;
+COMPONENT porta_and3
+PORT (a, b, c: IN BIT; z: OUT BIT);
+END COMPONENT;
+COMPONENT porta_or3
+PORT (a, b, c: IN BIT; z: OUT BIT);
+END COMPONENT;
+SIGNAL ent1, ent2, ent3, sortida: BIT;
+FOR DUT: porta_and2 USE ENTITY WORK.and2(logica);
+FOR DUT: porta_and3 USE ENTITY WORK.and2(logica);
+FOR DUT: porta_or2 USE ENTITY WORK.and2(logica);
+FOR DUT: porta_or3 USE ENTITY WORK.and2(logica);
+BEGIN
+DUT: porta_and2 PORT MAP (ent1, ent2, sortida);
+DUT: porta_and3 PORT MAP (ent1, ent2, ent3, sortida);
+DUT: porta_or2 PORT MAP (ent1, ent2, sortida);
+DUT: porta_or3 PORT MAP (ent1, ent2, ent3, sortida);
+
+PROCESS (ent1, ent2, ent3)
+BEGIN
+ent1 <= NOT ent1 AFTER 120 ns;
+ent2 <= NOT ent2 AFTER 80 ns;
+ent3 <= NOT ent3 AFTER 40 ns;
+END PROCESS;
+
+
+END test;

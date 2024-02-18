@@ -1,0 +1,129 @@
+{F:/UB/DDB/la puta practica 2/xor2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:\UB\DDB\la puta practica 2\xor2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity xor2
+-- Compiling architecture logica of xor2
+-- Compiling architecture logicaretard of xor2
+-- Loading entity xor2
+
+} {} {}} {F:/UB/DDB/la puta practica 2/or2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/UB/DDB/la puta practica 2/or2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity or2
+-- Compiling architecture logica of or2
+-- Compiling architecture logicaretard of or2
+-- Loading entity or2
+
+} {} {}} {F:/UB/DDB/la puta practica 2/comparador_2bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/UB/DDB/la puta practica 2/comparador_2bits.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity comparador_2bits
+-- Compiling architecture ifthen of comparador_2bits
+-- Compiling entity banc_de_proves
+-- Compiling architecture test of banc_de_proves
+-- Loading entity comparador_2bits
+
+} {} {}} F:/UB/DDB/P1/or3.vhd {1 {vcom -work work -2002 -explicit -stats=none {F:\UB\DDB\P1\or3.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity or3
+-- Compiling architecture logica of or3
+-- Compiling architecture logicaretard of or3
+-- Loading entity or3
+
+} {} {}} F:/UB/DDB/P1/bdp_proves.vhd {0 {vcom -work work -2002 -explicit -stats=none {F:\UB\DDB\P1\bdp_proves.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity bdp_proves
+-- Compiling architecture vectors of bdp_proves
+-- Loading entity and2
+-- Loading entity and3
+-- Loading entity and4
+-- Loading entity or2
+-- Loading entity or3
+-- Loading entity or4
+** Error: (vcom-11) Could not find work.inversor1.
+
+** Error (suppressible): F:\UB\DDB\P1\bdp_proves.vhd(37): (vcom-1195) Cannot find expanded name "work.inversor1".
+
+** Error: F:\UB\DDB\P1\bdp_proves.vhd(37): (vcom-1105) Name (indexed name) does not denote an entity name.
+
+** Error: F:\UB\DDB\P1\bdp_proves.vhd(37): Unknown expanded name.
+** Error: F:\UB\DDB\P1\bdp_proves.vhd(59): VHDL Compiler exiting
+
+} {12.0 13.0 16.0 17.0 18.0 20.0} {}} {F:/UB/DDB/la puta practica 2/and2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/UB/DDB/la puta practica 2/and2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity and2
+-- Compiling architecture logica of and2
+-- Compiling architecture logicaretard of and2
+-- Loading entity and2
+
+} {} {}} F:/UB/DDB/P1/or4.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/UB/DDB/P1/or4.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity or4
+-- Compiling architecture logica of or4
+-- Compiling architecture logicaretard of or4
+-- Loading entity or4
+
+} {} {}} {F:/UB/DDB/la puta practica 2/P2_B00_PUCH_CAMACHO_GERARD_portes.vhd } {0 {vcom -work work -2002 -explicit -stats=none {F:\UB\DDB\la puta practica 2\P2_B00_PUCH_CAMACHO_GERARD_portes.vhd }
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity funcio_logica
+-- Compiling architecture logica of funcio_logica
+** Error: F:\UB\DDB\la puta practica 2\P2_B00_PUCH_CAMACHO_GERARD_portes.vhd (7): (vcom-1136) Unknown identifier "d".
+
+** Error: F:\UB\DDB\la puta practica 2\P2_B00_PUCH_CAMACHO_GERARD_portes.vhd (7): (vcom-1348) Prefix (signal "a") of indexed name is not an array.
+
+** Error: F:\UB\DDB\la puta practica 2\P2_B00_PUCH_CAMACHO_GERARD_portes.vhd (7): Type error resolving infix expression "or" as type std.STANDARD.BIT.
+** Error: F:\UB\DDB\la puta practica 2\P2_B00_PUCH_CAMACHO_GERARD_portes.vhd (8): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0 10.0 12.0} {}} {F:/UB/DDB/la puta practica 2/funcio_2.vhd} {0 {vcom -work work -2002 -explicit -stats=none {F:\UB\DDB\la puta practica 2\funcio_2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity funcio_2
+-- Compiling architecture logica of funcio_2
+** Error: F:\UB\DDB\la puta practica 2\funcio_2.vhd(8): near "OR": (vcom-1576) expecting ')'.
+
+** Error: F:\UB\DDB\la puta practica 2\funcio_2.vhd(9): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {F:/UB/DDB/la puta practica 2/inv.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/UB/DDB/la puta practica 2/inv.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity inv
+-- Compiling architecture logica of inv
+-- Compiling architecture logicaretard of inv
+-- Loading entity inv
+
+} {} {}} F:/UB/DDB/P1/and3.vhd {1 {vcom -work work -2002 -explicit -stats=none {F:\UB\DDB\P1\and3.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity and3
+-- Compiling architecture logica of and3
+-- Compiling architecture logicaretard of and3
+-- Loading entity and3
+
+} {} {}} F:/UB/DDB/P1/and4.vhd {1 {vcom -work work -2002 -explicit -stats=none {F:\UB\DDB\P1\and4.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity and4
+-- Compiling architecture logica of and4
+-- Compiling architecture logicaretard of and4
+-- Loading entity and4
+
+} {} {}} F:/UB/DDB/P1/tetsbench.vhd {0 {vcom -work work -2002 -explicit -stats=none F:/UB/DDB/P1/tetsbench.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity testbench
+-- Compiling architecture vectors of testbench
+** Error: (vcom-11) Could not find work.inversor1.
+
+** Error (suppressible): F:/UB/DDB/P1/tetsbench.vhd(10): (vcom-1195) Cannot find expanded name "work.inversor1".
+
+** Error: F:/UB/DDB/P1/tetsbench.vhd(10): (vcom-1105) Name (indexed name) does not denote an entity name.
+
+** Error: F:/UB/DDB/P1/tetsbench.vhd(10): Unknown expanded name.
+** Error: F:/UB/DDB/P1/tetsbench.vhd(23): VHDL Compiler exiting
+
+} {6.0 7.0 10.0 11.0 12.0 14.0} {}}

@@ -1,0 +1,45 @@
+F:/UB/DDB/P1/and3.vhd {1 {vcom -work work -2002 -explicit -vopt F:/UB/DDB/P1/and3.vhd
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity and3
+-- Compiling architecture logica of and3
+
+} {} {}} F:/UB/DDB/P1/or2.vhd {1 {vcom -work work -2002 -explicit -vopt F:/UB/DDB/P1/or2.vhd
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity or2
+-- Compiling architecture logica of or2
+
+} {} {}} F:/UB/DDB/P1/test_and2.vhd {1 {vcom -work work -2002 -explicit -vopt F:/UB/DDB/P1/test_and2.vhd
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity test_and2
+-- Compiling architecture test of test_and2
+-- Loading entity and2
+
+} {} {}} F:/UB/DDB/P1/or3.vhd {1 {vcom -work work -2002 -explicit -vopt F:/UB/DDB/P1/or3.vhd
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity or3
+-- Compiling architecture logica of or3
+
+} {} {}} F:/UB/DDB/P1/tetsbench.vhd {1 {vcom -work work -2002 -explicit -vopt F:/UB/DDB/P1/tetsbench.vhd
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity testbench
+-- Compiling architecture vectors of testbench
+-- Loading entity inversor1
+
+} {} {}} F:/UB/DDB/P1/and2.vhd {1 {vcom -work work -2002 -explicit -vopt F:/UB/DDB/P1/and2.vhd
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity and2
+-- Compiling architecture logica of and2
+
+} {} {}} F:/UB/DDB/P1/inversor1.vhd {1 {vcom -work work -2002 -explicit -vopt F:/UB/DDB/P1/inversor1.vhd
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity inversor1
+-- Compiling architecture logica of inversor1
+
+} {} {}}

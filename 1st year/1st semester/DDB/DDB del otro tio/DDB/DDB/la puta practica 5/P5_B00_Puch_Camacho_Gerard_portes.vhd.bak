@@ -1,0 +1,161 @@
+------------------------------------ INVERSOR ----------------------------------------
+ENTITY inv IS 
+	PORT(a: IN BIT; z: OUT BIT);
+END inv;
+
+
+ARCHITECTURE logica OF inv IS
+BEGIN
+	z <= NOT a;
+END logica;
+
+
+ARCHITECTURE logica_retard OF inv IS
+BEGIN
+	z <= NOT a AFTER 5 ns;
+END logica_retard;
+
+
+------------------------------------- AND2 -------------------------------------------
+ENTITY and2 IS
+	PORT(a, b: IN BIT; z: OUT BIT);
+END and2;
+
+
+ARCHITECTURE logica OF and2 IS
+BEGIN
+	z <= a AND b;
+END logica;
+
+ARCHITECTURE logica_retard OF and2 IS
+BEGIN
+	z <= a AND b  AFTER 5 ns;
+END logica_retard;
+
+------------------------------------- OR2 --------------------------------------------
+ENTITY or2 IS
+	PORT(a, b: IN BIT; z: OUT BIT);
+END or2;
+
+
+ARCHITECTURE logica OF or2 IS
+BEGIN
+	z <= a OR b;
+END logica;
+
+ARCHITECTURE logica_retard OF or2 IS
+BEGIN
+	z <= a OR b  AFTER 5 ns;
+END logica_retard;
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+--------------------------Preset Clear D---------------------------
+
+ENTITY D_Bajada_PreClr IS
+PORT(D, Clk, Pre, Clr: IN BIT; Q, NO_Q: OUT BIT);
+END D_Bajada_PreClr;
+
+ARCHITECTURE ifthen OF D_Bajada_PreClr IS
+SIGNAL qint: BIT;
+BEGIN
+
+PROCESS (Clk, Pre, Clr)
+BEGIN
+      IF Clr='0' THEN qint<='0' AFTER 2 ns;
+      ELSIF Pre='0' THEN qint<='1' AFTER 2 ns;
+      ELSIF Clk'EVENT AND Clk='0' THEN qint <= D AFTER 6 ns;
+      END IF;
+END PROCESS;
+
+Q <= qint; NO_Q <= NOT qint;
+END ifthen;
+
+--------------------------Latch JK-----------------------------
+
+ENTITY JK_Latch_PreClr IS
+PORT(J, K, Clk, Pre, Clr: IN BIT; Q, NO_Q: OUT BIT);
+END JK_Latch_PreClr;
+
+ARCHITECTURE ifthen OF JK_Latch_PreClr IS
+SIGNAL qint: BIT;
+BEGIN
+
+PROCESS (J, K, Clk, Pre, Clr)
+BEGIN
+    IF Clr='0' THEN qint<='0' AFTER 2 ns;
+    ELSE
+        IF Pre='0' THEN qint<='1' AFTER 2 ns;
+        ELSE
+		        IF Clk='1' THEN
+			          IF J='0' AND K='0' THEN qint<=qint AFTER 6 ns;
+			          ELSIF J='0' AND K='1' THEN qint<='0' AFTER 6 ns;
+			          ELSIF J='1' AND K='0' THEN qint<='1' AFTER 6 ns;
+			          ELSIF J='1' AND K='1' THEN qint<= NOT qint AFTER 6 ns;
+			          END IF;
+
+		        END IF;
+	      END IF;
+    END IF;
+END PROCESS;
+
+Q <= qint; NO_Q <= NOT qint;
+END ifthen;
+
+-------------------------Banc de Proves dels dos----------------------------------
+
+ENTITY banco_proves IS
+END banco_proves;
+
+ARCHITECTURE test OF banco_proves IS
+
+COMPONENT mi_D_Bajada_PreClr IS
+PORT(D, Clk, Pre, Clr: IN BIT; Q, NO_Q: OUT BIT);
+END COMPONENT;
+
+COMPONENT mi_JK_Latch_PreClr IS
+PORT(J, K, Clk, Pre, Clr: IN BIT; Q, NO_Q: OUT BIT);
+END COMPONENT;
+
+SIGNAL ent1, ent2, clock, preset, clear, Dsort_Q, Dsort_noQ, JKsort_Q, JKsort_noQ: BIT;
+
+FOR DUT1: mi_D_Bajada_PreClr USE ENTITY WORK.D_Bajada_PreClr(ifthen);
+FOR DUT2: mi_JK_Latch_PreClr USE ENTITY WORK.JK_Latch_PreClr(ifthen);
+
+BEGIN
+DUT1: mi_D_Bajada_PreClr PORT MAP (ent1,clock,preset,clear,Dsort_Q,Dsort_noQ);
+DUT2: mi_JK_Latch_PreClr PORT MAP (ent1,ent2,clock,preset,clear,JKsort_Q,JKsort_noQ);
+ent1 <= NOT ent1 AFTER 800 ns;
+ent2 <= NOT ent2 AFTER 400 ns;
+clock <= NOT clock AFTER 500 ns;
+preset <= '0', '1' AFTER 600 ns;
+clear <= '1','0' AFTER 200 ns, '1' AFTER 400 ns;
+-- simular fins a 15000 ns
+END test;
+
+
+-------------------------------------------------------------------
+--------------------------- Latch D -------------------------------
+
+ENTITY D_Latch_PreClr IS
+PORT(D, Clk, Pre, Clr: IN BIT; Q, NO_Q: OUT BIT);
+END D_Latch_PreClr;
+
+ARCHITECTURE ifthen OF D_Latch_PreClr IS
+SIGNAL
+BEGIN
+
+PROCESS
+BEGIN
+    IF _____ THEN ;
+END D_Latch_PreClr;
+
+------------------------- Flip-Flop JK -----------------------------
+
+ENTITY JK_FF_PreClr IS
+PORT(J, K, S, R, Clk, Pre, Clr: IN BIT; Q, NO_Q: OUT BIT);
+END JK_FF_PreClr;
+
+ARCHITECTURE ifthen OF JK_FF_PreClr IS
+END JK_FF_PreClr;

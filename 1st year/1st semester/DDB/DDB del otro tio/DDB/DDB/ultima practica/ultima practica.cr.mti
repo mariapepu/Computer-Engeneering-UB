@@ -1,0 +1,89 @@
+{F:/UB/DDB/ultima practica/Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.} {0 {vcom -work work -2002 -explicit -vopt {F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.}
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity inv
+-- Compiling architecture logica_retard of inv
+-- Compiling entity and2
+-- Compiling architecture logica_retard of and2
+-- Compiling entity or3
+-- Compiling architecture logica_retard of or3
+-- Compiling entity xor2
+-- Compiling architecture logica_retard of xor2
+-- Compiling entity FF_D
+-- Compiling architecture ifthen of FF_D
+-- Compiling entity funcio
+-- Compiling architecture estructural of funcio
+-- Loading entity and2
+-- Loading entity or3
+-- Loading entity xor2
+-- Compiling entity MAQUINA
+** Warning: [3] F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(118): (vcom-1246) Range 1 downto 2 is null.
+
+-- Compiling architecture estructural of MAQUINA
+-- Loading entity funcio
+-- Loading entity FF_D
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(141): (vcom-1027) Number of positional association elements (4) exceeds number of formals (3).
+
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(141): Configuration component 'FFD' does not match instantiation component 'fun'.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(142): Symbol "DUT2" has already been declared in this region.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(142): (vcom-1027) Number of positional association elements (4) exceeds number of formals (3).
+
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(142): Configuration component 'FFD' does not match instantiation component 'fun'.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(147): Cannot read output "E".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(149): Cannot read output "Z".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(149): Cannot read output "Z".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(149): near "'": syntax error
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(150): Cannot read output "Z".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(150): Cannot read output "Z".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(150): near "'": syntax error
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(151): Cannot read output "Z".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(151): Cannot read output "Z".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(151): near "'": syntax error
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(152): Cannot read output "Z".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(152): Cannot read output "Z".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(152): near "'": syntax error
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(136): No statement with label "DUT3" was found.
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(140): (vcom-1272) Length of formal "A" is 2; length of actual is 0.
+
+** Error: F:\UB\DDB\ultima practica\Punt6_B00_Puch_Camacho_Gerard_MAQUINA.vhd.(156): VHDL Compiler exiting
+
+} {25.0 26.0 27.0 30.0 31.0 33.0 35.0 36.0 38.0 39.0 41.0 43.0 45.0 46.0 48.0 50.0 52.0 53.0 55.0 57.0 59.0 60.0 62.0 65.0 66.0 67.0} {}} {F:/UB/DDB/la puta practica 6/Prev6_B00_Puch_Camacho_Gerard_maquina.vhd} {1 {vcom -work work -2002 -explicit -vopt {F:/UB/DDB/la puta practica 6/Prev6_B00_Puch_Camacho_Gerard_maquina.vhd}
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity inv
+-- Compiling architecture logica_retard of inv
+-- Compiling entity and2
+-- Compiling architecture logica_retard of and2
+-- Compiling entity xor2
+-- Compiling architecture logica_retard of xor2
+-- Compiling entity FF_JK
+-- Compiling architecture ifthen of FF_JK
+-- Compiling entity circuit
+-- Compiling architecture estructural of circuit
+-- Loading entity inv
+-- Loading entity and2
+-- Loading entity xor2
+-- Loading entity FF_JK
+-- Compiling entity bProves
+-- Compiling architecture test of bProves
+-- Loading entity circuit
+
+} {} {}}

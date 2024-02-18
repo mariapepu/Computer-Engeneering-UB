@@ -1,0 +1,345 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:/Program Files (x86)/QuestaSim/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+Eand2
+Z0 w1480495830
+Z1 dF:/UB/DDB/la puta practica 5
+Z2 8F:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd
+Z3 FF:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd
+l0
+L20
+V6bf0F0@LOH=bjLU?k^?ce2
+!s100 707ACdOBj[TU^1]gX;cjk2
+Z4 OL;C;10.2c;57
+32
+Z5 !s110 1480495830
+!i10b 1
+Z6 !s108 1480495829.906000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|F:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd|
+Z8 !s107 F:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd|
+!i111 0
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1
+Alogica_retard
+Z11 DEx4 work 4 and2 0 22 6bf0F0@LOH=bjLU?k^?ce2
+l31
+L30
+VWni:e^MNQRVK8GmkP>dK41
+!s100 T98AoM]Rl<>oWje<S<N491
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica
+R11
+l26
+L25
+VV>B`zK2HZD3GZR:GOF5em1
+!s100 AP7hK;^gj]M4XbHXT6NzN0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Ebanco_proves
+R0
+R1
+R2
+R3
+l0
+L108
+VSJ[RbH42M@L546mnW5nFK2
+!s100 B8HM:f^Qdz67?;D2zHd>;1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Atest
+Z12 DEx4 work 15 jk_latch_preclr 0 22 MUf>HKlA0Yj=IN]fB6Ykg0
+Z13 DEx4 work 15 d_bajada_preclr 0 22 79:VCc2HFd]VcTh?>aOE92
+DEx4 work 12 banco_proves 0 22 SJ[RbH42M@L546mnW5nFK2
+l126
+L111
+V1hhh6@8a65ZG9c_k67SWE2
+!s100 o_bTKm7n3ZJ>N]6<Yd]NF3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Ebanco_pruebas
+Z14 w1480490682
+R1
+R2
+R3
+l0
+L66
+V1HSjJRlCY5hNRIoo?YchK0
+R4
+32
+Z15 !s110 1480490687
+Z16 !s108 1480490683.518000
+R7
+R8
+R9
+R10
+!s100 0I0n`mYIjY^bd0MaGnm8U0
+!i10b 1
+!i111 0
+Atest
+DEx4 work 15 jk_latch_preclr 0 22 fij5jIV`2h2Rl^I?DI`_Q1
+DEx4 work 15 d_bajada_preclr 0 22 zDdHk;OQOMCf^UMm_H:4I1
+DEx4 work 13 banco_pruebas 0 22 1HSjJRlCY5hNRIoo?YchK0
+l79
+L69
+VL[3aNomEcSF^Ui>SdLX_<3
+R4
+32
+R15
+R16
+R7
+R8
+R9
+R10
+!s100 Xd?YbIg0H1SU>@6]K481P3
+!i10b 1
+!i111 0
+Ed_bajada_preclr
+R0
+R1
+R2
+R3
+l0
+L56
+V79:VCc2HFd]VcTh?>aOE92
+!s100 m9Wj8fKDmOLg>>3kF91iJ3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Aifthen
+R13
+l62
+L60
+V=6KIi6mU`3e6:E[Ojf<Lb3
+!s100 HjVGU]PEnz?;Q=^ZCU9XV2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Ed_latch_preclr
+w1480495800
+R1
+R2
+R3
+l0
+L141
+Vo7<OMoEd:B7MfL^m9i2;d0
+R4
+32
+!s110 1480495799
+!s108 1480495799.203000
+R7
+R8
+R9
+R10
+!s100 3cADcF1T4RLfZkiz@S[gI0
+!i10b 1
+!i111 0
+Einv
+R0
+R1
+R2
+R3
+l0
+L2
+V4^>1MeAOP0UM?9]5[B8kf2
+!s100 >Tl75LkKmoIH:SYX4M<SJ3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica_retard
+Z17 DEx4 work 3 inv 0 22 4^>1MeAOP0UM?9]5[B8kf2
+l14
+L13
+Vg]7ffUUE@NNXLPAV?I7;63
+!s100 G^nGcf62Czb_cIP>^jn><1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica
+R17
+l8
+L7
+V=iWTVHXkc`8Bc458i?:?I1
+!s100 bKmEcCKdilE`1cdSNmcW^1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Ejk_latch_preclr
+R0
+R1
+R2
+R3
+l0
+L77
+VMUf>HKlA0Yj=IN]fB6Ykg0
+!s100 ?@IYBjj8hLEFeeR7T9fQj2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Aifthen
+R12
+l83
+L81
+VUXRK<6TFBCUDLd3h;k@YY0
+!s100 QF[`mL0Difl=:<[jOnMoL2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Elach_d
+w1481542518
+dE:/UB/DDB/la puta practica 5
+8E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd
+FE:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd
+l0
+L2
+VgMDDbEm:?B>DGRl;=a^>W0
+!s100 :VebhQk_PZEA5d^OjRVM]1
+OP;C;10.4a;61
+32
+!s110 1481542527
+!i10b 1
+!s108 1481542525.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd|
+!s107 E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd|
+!i113 1
+o-work work -2002 -explicit -O0
+R10
+Eor2
+R0
+R1
+R2
+R3
+l0
+L36
+VCY[ah1`e_lmRWIWU6:RFd3
+!s100 0S9e^TXJRgaL2O[HIAAa10
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica_retard
+Z18 DEx4 work 3 or2 0 22 CY[ah1`e_lmRWIWU6:RFd3
+l47
+L46
+VCo_<zL3kAm?IPCLjYSo2?1
+!s100 2=^a3PRji87^;^4RgcWKc0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10
+Alogica
+R18
+l42
+L41
+VTH;9YZXO;5GHKQcCP^I033
+!s100 0cB;H:6OkklTYi4iF5WmK2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i111 0
+R9
+R10

@@ -1,0 +1,46 @@
+{E:/UB/DDB/la puta practica 6/Prev6_B00_Puch_Camacho_Gerard_maquina.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UB/DDB/la puta practica 6/Prev6_B00_Puch_Camacho_Gerard_maquina.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity inv
+-- Compiling architecture logica_retard of inv
+-- Compiling entity and2
+-- Compiling architecture logica_retard of and2
+-- Compiling entity xor2
+-- Compiling architecture logica_retard of xor2
+-- Compiling entity FF_JK
+-- Compiling architecture ifthen of FF_JK
+-- Compiling entity circuit
+-- Compiling architecture estructural of circuit
+-- Loading entity inv
+-- Loading entity and2
+-- Loading entity xor2
+-- Loading entity FF_JK
+-- Compiling entity bProves
+-- Compiling architecture test of bProves
+-- Loading entity circuit
+
+} {} {}} {E:/UB/DDB/la puta practica 4/Pract4_B00_Puch_Camacho_Gerard_Dec2a4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/UB/DDB/la puta practica 4/Pract4_B00_Puch_Camacho_Gerard_Dec2a4.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity inv
+-- Compiling architecture logica of inv
+-- Compiling architecture logica_retard of inv
+-- Loading entity inv
+-- Compiling entity and2
+-- Compiling architecture logica of and2
+-- Compiling architecture logica_retard of and2
+-- Loading entity and2
+-- Compiling entity dec1a2
+-- Compiling architecture ifthen of dec1a2
+-- Compiling entity dec2a4
+-- Compiling architecture ifthen of dec2a4
+-- Compiling architecture estructural of dec2a4
+-- Loading entity dec2a4
+-- Loading entity inv
+-- Loading entity and2
+-- Loading entity dec1a2
+-- Compiling entity b_proves
+-- Compiling architecture test of b_proves
+-- Loading entity dec2a4
+
+} {} {}}

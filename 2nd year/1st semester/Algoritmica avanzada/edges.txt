@@ -1,0 +1,21 @@
+ola i disculpa el retard en respondre,
+Les solucions dels exercicis que vam resoldre a classe són:
+
+1. Llista d'adjacència
+def add_edge(self, node1, node2):
+     # Afegim una aresta. Al ser un graf no dirigit, cal afegir l'aresta en les dues direccions
+     self.adj[node1].add(node2)
+     self.adj[node2].add(node1)
+
+def has_edge(self, node1, node2):
+     return (node2 in self.adj[node1])
+
+2. Matriu d'adjacència
+def add_edge(self, node1, node2):
+     self.matrix[self.n2p[node1]][self.n2p[node2]] = 1
+     self.matrix[self.n2p[node2]][self.n2p[node1]] = 1
+
+def has_edge(self, node1, node2):
+     return self.matrix[self.n2p[node1]][self.n2p[node2]] == 1
+
+Pere

@@ -1,0 +1,33 @@
+3. A partir de les dades de l'arxiu tterreny.txt, contrasteu les hipòtesis següents amb nivell de significació α = 0.05 :
+
+a) El consum mitjà a 120 Km/h és de 12 litres
+
+b) La mitjana de la velocitat màxima és de 155 Km/h
+
+c) La mitjana del consum urbà és inferior de 12.2 litres
+
+d) A partir de les dades de les variables Consum90 i consum120, podem acceptar com a vàlida l'afirmació que μ120 = μ90?
+
+e) A partir de les dades de les variables Consum120 i ConsumUrba, podem acceptar com a vàlida l'afirmació que μ120 = μU?
+
+f) A partir de les dades de les variables Consun120 i ConsumUrba, podem acceptar com a válida l'afirmació que μ120 = μ90+2?
+
+
+
+7. Les dades de la taula següent representen el sou actual i el sou inicial, en euros, de 10 empleats d'una empresa.
+
+Homes						Dones
+
+Sou actual 	Sou inicial 		Sou actual 	Sou inicial
+
+57000		27000			21450		12000
+40200		18750			21900		13200
+45000		21000			21900		9750
+32100		13500			27900		12750
+36000		18750			24000		13500
+
+a) Podem afirmar que la mitjana teòrica del sou actual dels homes és de 12000 euros? (Nivell de significació α = 0.05)
+
+b) Les dones, han tingut un augment de sou significatiu? (Nivell de significació α = 0.05) 
+
+c) Podem afirmar que el sou mitjà inicial dels homes és més alt que el de les dones?

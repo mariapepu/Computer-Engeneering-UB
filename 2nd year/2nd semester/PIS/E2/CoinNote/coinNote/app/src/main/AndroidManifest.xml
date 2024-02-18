@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coinnote">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_coinnote"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_coinnote_round"
+        android:supportsRtl="true"
+        android:name="androidx.multidex.MultiDexApplication"
+        android:theme="@style/Theme.CoinNote">
+        <activity android:name=".view.popup_listar"></activity>
+        <activity android:name=".view.BorrarCuenta"/>
+        <activity android:name=".view.CrearGasto" />
+        <activity android:name=".view.Perfil" />
+        <activity android:name=".view.Register" />
+        <activity android:name=".view.Login" />
+        <activity android:name=".view.PaginaPrin"/>
+        <activity android:name=".view.ModificarContraseña"/>
+        <activity android:name=".view.VisualizarNota"/>
+        <activity android:name=".view.popUp_Imagen"/>
+
+        <activity android:name=".view.MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.coinnote.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+        
+    </application>
+
+</manifest>

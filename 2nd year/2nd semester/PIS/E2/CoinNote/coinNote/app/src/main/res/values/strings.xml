@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CoinNote</string>
+    <string name="title_activity_avtivity_toolbar1">avtivity_toolbar1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!--Boton desplegable-->
+    <string-array name="items">
+        <item> -elige opción- </item>
+        <item> Ordenar de A a Z </item>
+        <item>Ordenar de Z a A </item>
+        <item>Ordenar por gasto mayor</item>
+        <item>Ordenar por gasto menor </item>
+        <item>Ordenar por fecha </item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+

@@ -1,0 +1,745 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Eand2
+Z0 w1475529776
+Z1 dF:/UB/DDB/la puta practica 2
+Z2 8F:/UB/DDB/la puta practica 2/and2.vhd
+Z3 FF:/UB/DDB/la puta practica 2/and2.vhd
+l0
+L1
+VjMWR`_]U9OWmiWEQnD@SB2
+!s100 ;R9FEc?]IXACcP2]CG6n>1
+Z4 OP;C;10.4a;61
+32
+Z5 !s110 1475560790
+!i10b 1
+Z6 !s108 1475560788.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/UB/DDB/la puta practica 2/and2.vhd|
+Z8 !s107 F:/UB/DDB/la puta practica 2/and2.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit -O0
+Z10 tExplicit 1
+Alogicaretard
+Z11 DEx4 work 4 and2 0 22 jMWR`_]U9OWmiWEQnD@SB2
+l12
+L11
+Vd?L6L10fZi^8E@kPW9jSc3
+!s100 4ab@@mC`LXe<HVX;gWo@73
+R4
+32
+!s110 1475560791
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Alogica
+R11
+l7
+L6
+VIPMGk50Eb=IoX8Gd9A?PH2
+!s100 BZO[DYOmdT2l?LSUh5ZX60
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Eand3
+Z12 w1475563154
+R1
+Z13 8F:\UB\DDB\P1\and3.vhd
+Z14 FF:\UB\DDB\P1\and3.vhd
+l0
+L1
+V^h;iH^6O^9^^nZ6=T?4TR3
+!s100 boRW>M5HP6GFl[cA`Gknf1
+R4
+32
+Z15 !s110 1475563221
+!i10b 1
+Z16 !s108 1475563220.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\UB\DDB\P1\and3.vhd|
+Z18 !s107 F:\UB\DDB\P1\and3.vhd|
+!i113 1
+R9
+R10
+Alogicaretard
+Z19 DEx4 work 4 and3 0 22 ^h;iH^6O^9^^nZ6=T?4TR3
+l11
+L10
+VO?5No^Ji:^akO^GllCaQM2
+!s100 ZdPQ^B3O3D0:?^Bn9G9S=2
+R4
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R9
+R10
+Alogica
+R19
+l6
+L5
+V^:6MnmUQeUfojbm:]1hTo2
+!s100 ;6bX[2W`IkCjV:GM>E;kh1
+R4
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R9
+R10
+Eand4
+Z20 w1475563246
+R1
+Z21 8F:\UB\DDB\P1\and4.vhd
+Z22 FF:\UB\DDB\P1\and4.vhd
+l0
+L1
+V7OdZ<6]lD`2f0Y^TTPFYD0
+!s100 KL^Vc9f<R_4F>[g8;]DE33
+R4
+32
+Z23 !s110 1475563245
+!i10b 1
+Z24 !s108 1475563245.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\UB\DDB\P1\and4.vhd|
+Z26 !s107 F:\UB\DDB\P1\and4.vhd|
+!i113 1
+R9
+R10
+Alogicaretard
+Z27 DEx4 work 4 and4 0 22 7OdZ<6]lD`2f0Y^TTPFYD0
+l11
+L10
+V00IFcYzdCiON>m3lQCdja2
+!s100 SIhcdBgCbEjngNzS0nede1
+R4
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R9
+R10
+Alogica
+R27
+l6
+L5
+VjZDQ7B5Z<KaV6f8NSOl@E1
+!s100 [9e[fhY`MeP^k6]J:LN`S1
+R4
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R9
+R10
+Ebanc_de_proves
+Z28 w1475527670
+R1
+Z29 8F:/UB/DDB/la puta practica 2/comparador_2bits.vhd
+Z30 FF:/UB/DDB/la puta practica 2/comparador_2bits.vhd
+l0
+L24
+VNnTEE7UlcnH]H?dT3CRSS0
+!s100 9jo;U1<O1^0lelNDC:[X`0
+R4
+32
+Z31 !s110 1475560841
+!i10b 1
+Z32 !s108 1475560835.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/UB/DDB/la puta practica 2/comparador_2bits.vhd|
+Z34 !s107 F:/UB/DDB/la puta practica 2/comparador_2bits.vhd|
+!i113 1
+R9
+R10
+Atest
+Z35 DEx4 work 16 comparador_2bits 0 22 ]U1b6ASjhXz]bk32E<2^k1
+DEx4 work 14 banc_de_proves 0 22 NnTEE7UlcnH]H?dT3CRSS0
+l41
+L27
+V`eFQO2W]Omf0Of56M_?lf2
+!s100 ic;m2G:0KNncbJaEjD>9F2
+R4
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R9
+R10
+Atest_de_proves
+DEx4 work 13 funcio_logica 0 22 CTB[]4hiN>=M0IIkB38aj2
+DEx4 work 14 banc_de_proves 0 22 ?:oDU=iX]4HXQD[dV@d1_3
+l56
+L46
+V0B9^5ULLj=`gmlWW4Kzo@2
+!s100 HVH5^F]ai>0:2:kPkiQ8I2
+R4
+32
+Z36 !s110 1475521066
+!i10b 1
+Z37 !s108 1475521061.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/UB/DDB/la puta practica 2/funcio_logica.vhd|
+Z39 !s107 F:/UB/DDB/la puta practica 2/funcio_logica.vhd|
+!i113 1
+R9
+R10
+Z40 w1475520594
+Z41 FF:/UB/DDB/la puta practica 2/funcio_logica.vhd
+Z42 8F:/UB/DDB/la puta practica 2/funcio_logica.vhd
+Ebanc_de_proves_2
+R40
+R1
+R42
+R41
+l0
+L95
+VfUnZkWdYDNfi`>_XXlizN2
+!s100 CUL`ABV`:WnYmo>``3A;90
+R4
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R9
+R10
+Ebancdeproves
+Z43 w1475537152
+R1
+R42
+R41
+l0
+L42
+VULl_ZYMM0aPhSGI3R`BdN3
+!s100 KFO5YeVDoIfYAJP:bP=?E3
+R4
+32
+Z44 !s110 1475560829
+!i10b 1
+Z45 !s108 1475560826.000000
+R38
+R39
+!i113 1
+R9
+R10
+Atest_de_proves
+Z46 DEx4 work 13 funcio_logica 0 22 HF6zJzKQG7c>oYe>DAf_L3
+DEx4 work 12 bancdeproves 0 22 ULl_ZYMM0aPhSGI3R`BdN3
+l55
+L46
+V8I7K0`M8=ERiN`MPcPL_k0
+!s100 S[Pno9bQ5kdbLY5HTL<_71
+R4
+32
+R44
+!i10b 1
+R45
+R38
+R39
+!i113 1
+R9
+R10
+Ebdp_proves
+w1474549252
+R1
+8F:\UB\DDB\P1\bdp_proves.vhd
+FF:\UB\DDB\P1\bdp_proves.vhd
+l0
+L1
+VE]B@]YRma5UG8@U26H1=R1
+!s100 4C]5FFmCe]eLjTB?Wb5zh0
+R4
+32
+!s110 1475564004
+!i10b 1
+!s108 1475564001.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\UB\DDB\P1\bdp_proves.vhd|
+!s107 F:\UB\DDB\P1\bdp_proves.vhd|
+!i113 1
+R9
+R10
+Ecomparador_2bits
+R28
+R1
+R29
+R30
+l0
+L1
+V]U1b6ASjhXz]bk32E<2^k1
+!s100 >F`>D6BM]]zKgA8g1^RY=1
+R4
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R9
+R10
+Aifthen
+R35
+l6
+L5
+VXDUVle9RFFQ1I67^0OcWe0
+!s100 QcBL?3Q>nL4:_mEX7Smg03
+R4
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R9
+R10
+Edecodificador_3a8
+R43
+R1
+R42
+R41
+l0
+L68
+VN^DX:Fo2jeo^ggg=EZdFl1
+!s100 AUWQkH?Aib18iFlkhUa4>3
+R4
+32
+R44
+!i10b 1
+R45
+R38
+R39
+!i113 1
+R9
+R10
+Aifthen
+DEx4 work 17 decodificador_3a8 0 22 N^DX:Fo2jeo^ggg=EZdFl1
+l73
+L72
+VcAgnGol4zFSW14_cfn^TX1
+!s100 kQm;>c]=ij@oNYT^l@:>G0
+R4
+32
+R44
+!i10b 1
+R45
+R38
+R39
+!i113 1
+R9
+R10
+Edescodificador_3_a_8
+Z47 w1475517506
+R1
+R42
+R41
+l0
+L67
+V6@l2JZ1YjT<OLaf3DP:B]1
+!s100 YGz_lJk4nh]G;IKP4T_Dj3
+R4
+32
+Z48 !s110 1475517506
+!i10b 1
+Z49 !s108 1475517506.000000
+R38
+R39
+!i113 1
+R9
+R10
+Aifthen
+DEx4 work 20 descodificador_3_a_8 0 22 6@l2JZ1YjT<OLaf3DP:B]1
+l72
+L71
+V7WhnXiBTlSnZWNjI]EYl=3
+!s100 f?e]B:DA7bJ[83T75jMRS3
+R4
+32
+R48
+!i10b 1
+R49
+R38
+R39
+!i113 1
+R9
+R10
+Efuncio_2
+w1475566504
+R1
+8F:\UB\DDB\la puta practica 2\funcio_2.vhd
+FF:\UB\DDB\la puta practica 2\funcio_2.vhd
+l0
+L1
+VGP5;Gc^H24Bl`I[hN;97o1
+!s100 eN8LGfo_:]Enf_8<FmFec0
+R4
+32
+!s110 1475566544
+!i10b 1
+!s108 1475566541.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\UB\DDB\la puta practica 2\funcio_2.vhd|
+!s107 F:\UB\DDB\la puta practica 2\funcio_2.vhd|
+!i113 1
+R9
+R10
+Efuncio_logica
+R43
+R1
+R42
+R41
+l0
+L1
+VHF6zJzKQG7c>oYe>DAf_L3
+!s100 `XDLWkMz[34R@Obl=J0NF3
+R4
+32
+Z50 !s110 1475560827
+!i10b 1
+R45
+R38
+R39
+!i113 1
+R9
+R10
+Aestructural
+Z51 DEx4 work 3 or2 0 22 7m]7nab@hOTe:4kC4l_8;2
+R11
+Z52 DEx4 work 3 inv 0 22 2D>XgAeU8K8V[<aIfR3WX1
+R46
+l34
+L11
+Vo<@?UZaD<DA`oYP^LLY1U2
+!s100 lV=>df99Pm1dneHh?JP@63
+R4
+32
+R50
+!i10b 1
+R45
+R38
+R39
+!i113 1
+R9
+R10
+Alogica
+R46
+l6
+L5
+V[@V;6GOfbJGTmDe6836Ok1
+!s100 WHeE7B:i7bj=G6EWdlUA53
+R4
+32
+R50
+!i10b 1
+R45
+R38
+R39
+!i113 1
+R9
+R10
+Einv
+Z53 w1475529886
+R1
+Z54 8F:/UB/DDB/la puta practica 2/inv.vhd
+Z55 FF:/UB/DDB/la puta practica 2/inv.vhd
+l0
+L1
+V2D>XgAeU8K8V[<aIfR3WX1
+!s100 H7;SOim[WEV=F7I^9?EZO2
+R4
+32
+Z56 !s110 1475560813
+!i10b 1
+Z57 !s108 1475560806.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/UB/DDB/la puta practica 2/inv.vhd|
+Z59 !s107 F:/UB/DDB/la puta practica 2/inv.vhd|
+!i113 1
+R9
+R10
+Alogicaretard
+R52
+l11
+L10
+VS<_A[4Y8LLg;LDAL>cVUB0
+!s100 bUi:lI5BL`@Zh_KC9@hIn2
+R4
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R9
+R10
+Alogica
+R52
+l6
+L5
+Vg=nd>9i8>YE92S4XNDO]H3
+!s100 JgT5zYC5BL^B1jgDcUJSB2
+R4
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R9
+R10
+Eor2
+Z60 w1475529778
+R1
+Z61 8F:/UB/DDB/la puta practica 2/or2.vhd
+Z62 FF:/UB/DDB/la puta practica 2/or2.vhd
+l0
+L1
+V7m]7nab@hOTe:4kC4l_8;2
+!s100 @[K<o0?0j4b2If`6m^K?;3
+R4
+32
+Z63 !s110 1475560796
+!i10b 1
+Z64 !s108 1475560796.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/UB/DDB/la puta practica 2/or2.vhd|
+Z66 !s107 F:/UB/DDB/la puta practica 2/or2.vhd|
+!i113 1
+R9
+R10
+Alogicaretard
+R51
+l11
+L10
+V4O`G>14hJ3cdQZ7<g;kiF2
+!s100 ENSCAEc_Qo=APEmL3FCiP3
+R4
+32
+!s110 1475560799
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R9
+R10
+Alogica
+R51
+l6
+L5
+V=;Ej[Ta=2I=f^SRaH<N2i1
+!s100 KBgYBbc5V_^:M3[]ZSS9m0
+R4
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R9
+R10
+Eor3
+Z67 w1475563130
+R1
+Z68 8F:\UB\DDB\P1\or3.vhd
+Z69 FF:\UB\DDB\P1\or3.vhd
+l0
+L1
+Vg@>8K6o6nN6n]f1feD3=L1
+!s100 >8`:HOnESa`]MYWN?1k2G1
+R4
+32
+Z70 !s110 1475563129
+!i10b 1
+Z71 !s108 1475563129.000000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\UB\DDB\P1\or3.vhd|
+Z73 !s107 F:\UB\DDB\P1\or3.vhd|
+!i113 1
+R9
+R10
+Alogicaretard
+Z74 DEx4 work 3 or3 0 22 g@>8K6o6nN6n]f1feD3=L1
+l11
+L10
+V2J7_zTF4j8_;VP[z_06Xa0
+!s100 0Tm4f70HM_TDT78NMc8lU1
+R4
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R9
+R10
+Alogica
+R74
+l6
+L5
+V>C5GeNbO5;;oHaGBfn3^D2
+!s100 F_:9Ah<HigU70NLjAX^Z60
+R4
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R9
+R10
+Eor4
+Z75 w1475529942
+R1
+Z76 8F:/UB/DDB/P1/or4.vhd
+Z77 FF:/UB/DDB/P1/or4.vhd
+l0
+L1
+V;VIQ^V8e>^717<TJFO3a@3
+!s100 1X`aGW`J37mU[36;0:WUk2
+R4
+32
+Z78 !s110 1475529966
+!i10b 1
+Z79 !s108 1475529964.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/UB/DDB/P1/or4.vhd|
+Z81 !s107 F:/UB/DDB/P1/or4.vhd|
+!i113 1
+R9
+R10
+Alogicaretard
+Z82 DEx4 work 3 or4 0 22 ;VIQ^V8e>^717<TJFO3a@3
+l11
+L10
+VgLPf2Zze^KOC_BK1DkKIO3
+!s100 CD8o;9J]zczY48Q5V?1QI3
+R4
+32
+R78
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R9
+R10
+Alogica
+R82
+l6
+L5
+V>9V_d[58OEleibhg[9HiD2
+!s100 @b7^3XP:08X[m?PNNbPHf0
+R4
+32
+R78
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R9
+R10
+Etestbench
+w1474552762
+R1
+8F:/UB/DDB/P1/tetsbench.vhd
+FF:/UB/DDB/P1/tetsbench.vhd
+l0
+L1
+VHNV^JZ?bU07?Mjjn0N=1B1
+!s100 _CKIl3_>HlOzbKfdnO=P40
+R4
+32
+!s110 1475566503
+!i10b 1
+!s108 1475566503.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/UB/DDB/P1/tetsbench.vhd|
+!s107 F:/UB/DDB/P1/tetsbench.vhd|
+!i113 1
+R9
+R10
+Exor2
+Z83 w1475529296
+R1
+Z84 8F:\UB\DDB\la puta practica 2\xor2.vhd
+Z85 FF:\UB\DDB\la puta practica 2\xor2.vhd
+l0
+L1
+VDbel`D3W;ebimFW2Oe13a2
+!s100 ?V2Rhh3[Pkz5XU3dXEUgS1
+R4
+32
+Z86 !s110 1475535055
+!i10b 1
+Z87 !s108 1475535055.000000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\UB\DDB\la puta practica 2\xor2.vhd|
+Z89 !s107 F:\UB\DDB\la puta practica 2\xor2.vhd|
+!i113 1
+R9
+R10
+Alogicaretard
+Z90 DEx4 work 4 xor2 0 22 Dbel`D3W;ebimFW2Oe13a2
+l11
+L10
+V`FQ:0W6PY@ZHonN2[kO9e2
+!s100 :JbC`S0IKQ7_j`^RRJOHP2
+R4
+32
+R86
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R9
+R10
+Alogica
+R90
+l6
+L5
+V>hldZBOfX7_S;Lj<X2mmH1
+!s100 ZR1L4A050b1BbndKQd7iL3
+R4
+32
+R86
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R9
+R10

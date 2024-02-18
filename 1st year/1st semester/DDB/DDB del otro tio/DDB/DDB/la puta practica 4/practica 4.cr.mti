@@ -1,0 +1,19 @@
+{E:/UB/DDB/la puta practica 2/P3_B00_Puch_Camacho_Gerard_comp4bits.vhd} {0 {vcom -work work -2002 -explicit -stats=none {E:/UB/DDB/la puta practica 2/P3_B00_Puch_Camacho_Gerard_comp4bits.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity portaor2
+-- Compiling architecture logicaretard of portaor2
+-- Compiling entity portaand2
+-- Compiling architecture logicaretard of portaand2
+-- Compiling entity comparador_2bits
+-- Compiling architecture ifthen of comparador_2bits
+-- Compiling entity comparador_4bits
+-- Compiling architecture estructural of comparador_4bits
+-- Loading entity comparador_2bits
+-- Loading entity portaand2
+-- Loading entity portaor2
+** Error (suppressible): E:/UB/DDB/la puta practica 2/P3_B00_Puch_Camacho_Gerard_comp4bits.vhd(90): (vcom-1141) Identifier "portaaand2" does not identify a component declaration.
+
+** Error: E:/UB/DDB/la puta practica 2/P3_B00_Puch_Camacho_Gerard_comp4bits.vhd(95): VHDL Compiler exiting
+
+} {17.0 18.0} {}}

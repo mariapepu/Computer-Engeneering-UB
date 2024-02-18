@@ -1,0 +1,37 @@
+.DEF CMP $1,$2
+	SUB $1,$2,R0
+.ENDDEF
+
+.DEF CMP $1,$i2
+	SUBI $1,$i2,R0
+.ENDDEF
+
+.DEF CLR $1
+	ADD R0, R0, $1
+.ENDDEF
+
+.DEF MOV $1, $2
+	ADD $1,R0, $2
+.ENDDEF
+
+.DEF MOV $i1,$2
+	ADDI R0,$i1,$2
+.ENDDEF
+
+.DEF MOV $d1, $2
+	LOAD $d1, $2
+.ENDDEF
+
+.DEF MOV $d1,$d2,$3
+	LOAD $d1,$3
+	STORE $3,$d2
+.ENDDEF
+
+.DEF INC $1
+	ADDI $1, #1, $1
+.ENDDEF
+
+.DEF DEC $1
+	SUBI $1, #1, $1
+.ENDDEF
+

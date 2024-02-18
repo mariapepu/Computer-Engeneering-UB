@@ -1,0 +1,33 @@
+bool simetric() {
+        if (p_root == nullptr) {
+            return true;
+        }
+        return callsimetric(p_root->getLeft(), p_root->getRight());
+
+    }
+
+    bool callsimetric(BinaryTreeNode<K, V>* nodoizq, BinaryTreeNode<K, V>* nododer) {
+        if (!(nodoizq and nododer)) {
+            return false;
+        } else {
+            return callsimetric(nodoizq->getLeft(), nododer->getLeft()) and callsimetric(nodoizq->getRight(), nododer->getRight());
+        }
+
+    }
+
+    int sumamax() {
+
+        if (p_root == nullptr) {
+            return 0;
+        }
+        return callsumamax(p_root);
+    }
+
+    int callsumamax(BinaryTreeNode<K, V>* n) {
+        if (n == nullptr) {
+            return 0;
+        } else {
+            return n->getKey()+max(callsumamax(n->getLeft()), callsumamax(n->getRight()));
+        }
+
+    }

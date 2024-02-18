@@ -1,0 +1,8 @@
+template <class K, class V>
+int BinaryTreeNode<K, V>::height() const {
+    int esq = 0, dreta = 0;
+    if (hasLeft()) esq = getLeft()->height();
+    if (hasRight()) dreta = dreta = getRight()->height(); 
+    if(esq > dreta) return esq + 1;
+    else return dreta + 1;
+}

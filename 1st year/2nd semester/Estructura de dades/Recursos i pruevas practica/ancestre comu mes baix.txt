@@ -1,0 +1,17 @@
+template <class Element>
+void BSTree<Element>::mostraAncestreComuMesBaix(const Element& n1, const Element& n2)
+{
+cout << "L'ACMB de " << n1 << " i " << n2 << " es: "
+<< this->acmb(this->root(),n1,n2) << endl;
+}
+
+template <class Element>
+int BSTree<Element>::acmb(NodeTree<Element>* node, const Element& n1, const Element& n2)
+{
+if (node == nullptr) return -1;
+if (node->getElement() > n1 && node->getElement() > n2)
+return acmb(node->left(), n1, n2);
+if (node->getElement() < n1 && node->getElement() < n2)
+return acmb(node->right(), n1, n2);
+return node->getElement();
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_imagen_gasto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/dialog_add_foto_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Agrega imagen"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <ImageButton
+                    android:id="@+id/camara"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/camara_boton"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="110dp"
+                    />
+
+
+                <ImageButton
+                    android:id="@+id/galeria"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/galeria"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="200dp"/>
+
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:text="Camara"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="105dp"
+                    android:textSize="15dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:text="Galeria"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="200dp"
+                    android:textSize="15dp"/>
+
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/aceptar"
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/boton_login"
+                    android:onClick="openColorPicker"
+                    android:text="Aceptar"
+                    android:layout_marginStart="40dp"
+                    app:backgroundTint="#E88CDB" />
+
+
+                <Button
+                    android:id="@+id/cancelar"
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/boton_login"
+                    android:onClick="openColorPicker"
+                    android:layout_marginStart="50dp"
+                    android:layout_gravity="right"
+                    android:text="Cancelar"
+                    app:backgroundTint="#E88CDB" />
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

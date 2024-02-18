@@ -1,0 +1,9 @@
+{F:/UB/DDB/la puta practica 1/P1_B00_Puch_Camach_Gerard_1.vhd} {0 {vcom -work work -2002 -explicit -vopt {F:/UB/DDB/la puta practica 1/P1_B00_Puch_Camach_Gerard_1.vhd}
+QuestaSim-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Compiling entity inversor1
+-- Compiling architecture logica of inversor1
+-- Compiling entity testbench
+** Error: F:/UB/DDB/la puta practica 1/P1_B00_Puch_Camach_Gerard_1.vhd(15): near "ARCHITECTURE": expecting ';'
+
+} {7.0 8.0} {}}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liftOnScroll="true"
+
+            >
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/MyActionBarTheme">
+
+                <ImageView
+                    android:id="@+id/imagen_perfi"
+                    android:layout_width="57dp"
+                    android:layout_height="38dp"
+                    android:layout_alignLeft="@id/atras"
+                    android:layout_gravity="left" />
+
+                <TextView
+                    android:id="@+id/nombre_usuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/imagen_perfi"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:text="Nombre Usuario"
+                    android:textColor="@color/ButtonText"
+                    tools:layout_editor_absoluteX="142dp"
+                    tools:layout_editor_absoluteY="28dp" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Button">
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tabPrin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mis notas" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tabCal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calendario" />
+            </com.google.android.material.tabs.TabLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:layout_gravity="bottom">
+
+        </androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/boton_add" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

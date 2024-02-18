@@ -1,0 +1,15 @@
+void bst::preorder{
+	preorder_rec(get_root());
+}
+
+void bst::preorder_aux(nodetree* node){
+	if (node!=nullptr){
+		cout<<node.getElement();
+		if (node.hasLeft()){
+			preorder_aux(node.getLeft());
+		}
+		if (node.hasRight()){
+			preorder_aux(node.getRight());
+		}
+	}
+}

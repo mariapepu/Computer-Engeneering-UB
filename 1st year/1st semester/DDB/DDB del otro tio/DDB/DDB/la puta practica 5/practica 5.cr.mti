@@ -1,0 +1,24 @@
+{E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd} {0 {vcom -work work -2002 -explicit -stats=none {E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity Lach_D
+-- Compiling architecture ifthen of Lach_D
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(7): near "BIT": (vcom-1576) expecting ':'.
+
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(11): Illegal target for signal assignment.
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(11): (vcom-1136) Unknown identifier "qentr".
+
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(12): Illegal target for signal assignment.
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(12): (vcom-1136) Unknown identifier "qentr".
+
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(13): Illegal target for signal assignment.
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(13): (vcom-1136) Unknown identifier "qentr".
+
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(17): (vcom-1136) Unknown identifier "qentr".
+
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(18): (vcom-1136) Unknown identifier "qentr".
+
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(18): Type error resolving prefix expression "not" as type std.STANDARD.BIT.
+** Error: E:/UB/DDB/la puta practica 5/P5_B00_Puch_Camacho_Gerard_portes.vhd(19): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 10.0 11.0 13.0 14.0 16.0 17.0 18.0 19.0 20.0 21.0 23.0} {}}
