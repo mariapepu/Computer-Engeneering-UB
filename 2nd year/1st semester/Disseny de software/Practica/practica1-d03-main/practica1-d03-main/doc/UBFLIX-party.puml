@@ -1,0 +1,103 @@
+
+@startuml
+
+left to right direction
+
+skinparam packageStyle rect
+
+title DCU per l'aplicació UBFLIX-PARTY
+
+actor UsuariNoEnregistrat as une
+actor Client as client
+actor Usuari as usu
+actor Temps as temps
+
+rectangle UBFLIX {
+
+
+usecase (UC1. Enregistrar-se) as UC1
+usecase (UC1.1. Crear Usuari) as UC11
+usecase (UC2. Log in) as UC2
+usecase (UC2.1. Log in Com Usuari) as UC21
+usecase (UC3. Llistar Catàleg Sèries) as UC3
+usecase (UC3.1 Llistar WatchingList) as UC31
+usecase (UC3.2 Llistar MyList) as UC32
+usecase (UC3.3 Llistar TopPicksForYou) as UC33
+usecase (UC4. Veure Detalls Sèrie) as UC4
+usecase (UC5. Afegir Episodi a MyList) as UC5
+usecase (UC6. Visualitzar Episodi) as UC6
+usecase (UC7. Valorar Episodi) as UC7
+usecase (UC7.1. Valorar Amb Cor) as UC71
+usecase (UC7.2. Valorar Amb Estrelles) as UC72
+usecase (UC8. CercarSèries) as UC8
+usecase (UC8.1. CercarPerNom) as UC81
+usecase (UC8.2. CercarPerValoració) as UC82
+usecase (UC8.3. CercarPerVisualització) as UC83
+usecase (UC8.4. CercarPerEtiqueta) as UC84
+usecase (UC8.4. CercarPerNovetats) as UC85
+usecase (UC9. Veure Perfil) as UC9
+usecase (UC9.1. Modificar Perfil) as UC91
+usecase (UC10. Follow) as UC10
+usecase (UC11. Enviar Post) as UC111
+usecase (UC12.Veure Posts Rebuts) as UC12
+usecase (UC13. Notificar missatges ) as UC13
+}
+
+
+
+une - UC1
+
+client -UC2
+
+usu -UC3
+
+usu - UC5
+
+usu - UC6
+
+usu - UC7
+
+usu - UC8
+
+usu - UC9
+
+usu - UC10
+
+
+
+usu - UC12
+
+
+usu - UC111
+temps - UC13
+
+UC1 .> UC11: <<include>>
+
+UC2 .> UC21: <<include>>
+
+UC2 <--UC11: <<extends>>
+
+UC4 .> UC3 : <<extends>>
+UC7 .> UC6 : <<extends>>
+
+UC7 <-- UC71 : <<extends>>
+UC7 <-- UC72 : <<extends>>
+
+UC3 <|-- UC31
+UC3 <|-- UC32
+UC3 <|-- UC33
+
+UC8 <|-- UC81
+UC8 <|-- UC82
+UC8 <|-- UC83
+UC8 <|-- UC84
+UC8 <|-- UC85
+
+UC9 <--UC91: <<extends>>
+
+
+
+@enduml
+
+
+

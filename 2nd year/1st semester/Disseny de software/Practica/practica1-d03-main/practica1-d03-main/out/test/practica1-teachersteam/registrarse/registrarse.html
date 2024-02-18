@@ -1,0 +1,145 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<head>
+    <title>US1. Enregistrar-se</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>Acceptance Criteria 1.1 System Sign in client</h1>
+<p>
+    The system shall create a new client if the given credentials are valid.
+</p>
+<div concordion:example="example-1" concordion:status = "Unimplemented">
+    <table concordion:execute="#valid=addClient(#username, #password, #dni, #adress, #vip)">
+        <tr>
+            <th concordion:set="#username">Nom Client</th>
+            <th concordion:set="#password">Password</th>
+            <th concordion:set="#dni">DNI</th>
+            <th concordion:set="#adress">Adress</th>
+            <th concordion:set="#vip">vip</th>
+            <th concordion:assertEquals="#valid">Sucess</th>
+        </tr>
+        <tr>
+            <td>charlie</td>
+            <td>Cheefwrgwerl87</td>
+            <td>12400569E</td>
+            <td>rwosfjl</td>
+            <td>yes</td>
+            <td>Client created</td>
+        </tr>
+        <tr>
+            <td>marcos</td>
+            <td>aooll</td>
+            <td>32452568E</td>
+            <td>dvdf</td>
+            <td>no</td>
+            <td>Password not secure enough</td>
+        </tr>
+        <tr>
+            <td>laia</td>
+            <td>ajaleoPassw87</td>
+            <td>32452569E</td>
+            <td>dvdfarg</td>
+            <td>yes</td>
+            <td>Client created</td>
+        </tr>
+        <tr>
+            <td>laia</td>
+            <td>ajaleoPassw87</td>
+            <td>3245256</td>
+            <td>dvdfarg</td>
+            <td>no</td>
+            <td>Taken username</td>
+        </tr>
+        <tr>
+            <td>laura</td>
+            <td>ajaleoPassw87</td>
+            <td>32452536R</td>
+            <td>dvdfarg</td>
+            <td>no</td>
+            <td>Client created</td>
+        </tr>
+    </table>
+</div>
+
+<h1>Acceptance Criteria 1.2 System Sign in Client: username taken or not</h1>
+<p>
+    The system shall indicate whether or not the introduced username is taken. It is valid if it doesn't exist.
+</p>
+<div concordion:example="example-2" concordion:status = "Unimplemented">
+    <table concordion:execute="#valid=isTakenUsername(#username)">
+        <tr>
+            <th concordion:set="#username">Username</th>
+            <th concordion:assertEquals="#valid">Sucess</th>
+        </tr>
+        <tr>
+            <td>ajaleo</td>
+            <td>no</td>
+        </tr>
+        <tr>
+            <td>dtomacal</td>
+            <td>no</td>
+        </tr>
+        <tr>
+            <td>qwewef</td>
+            <td>yes</td>
+        </tr>
+    </table>
+</div>
+
+<h1>Acceptance Criteria 1.3 System Sign in client: secure password</h1>
+<p>
+    The system shall indicate whether or not the introduced password is safe or not.
+</p>
+<div concordion:example="example-3" concordion:status = "Unimplemented" >
+    <div concordion:example="name-of-example" concordion:status = "Unimplemented"></div>
+
+    <table concordion:execute="#valid=isValidPassword(#password)">
+        <tr>
+            <th concordion:set="#password">Password</th>
+            <th concordion:assertEquals="#valid">Sucess</th>
+        </tr>
+        <tr>
+            <td>ajaleoPassw87</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>ajale</td>
+            <td>no</td>
+        </tr>
+        <tr>
+            <td>qWerty89</td>
+            <td>yes</td>
+        </tr>
+    </table>
+</div>
+
+
+<h1>Acceptance Criteria 1.4 System Log in Client: validate email address</h1>
+<p>
+    The system shall indicate whether or not the introduced email address is valid. For instance if it is correct and
+    it is not used by another client.
+</p>
+<div>
+    <table concordion:execute="#valid=isValidDni(#dni)">
+        <tr>
+            <th concordion:set="#dni">DNI</th>
+            <th concordion:assertEquals="#valid">Success</th>
+        </tr>
+        <tr>
+            <td>12397356D</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>345</td>
+            <td>no</td>
+        </tr>
+        <tr>
+            <td>dfv345</td>
+            <td>no</td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+@startuml
+hide footbox
+autonumber "<b>[0]"
+
+participant Customer
+participant Rental
+participant Movie
+activate Customer
+loop  all rentals
+Customer -> Rental: getMovie
+activate Rental
+Rental -->Customer: idMovie
+deactivate Rental
+Customer -> Movie: getPrice
+activate Movie
+Movie -> Customer: int
+deactivate Movie
+Customer -> Rental: getDaysRented
+activate Rental
+Rental --> Customer: int
+deactivate Rental
+end loop
+@enduml

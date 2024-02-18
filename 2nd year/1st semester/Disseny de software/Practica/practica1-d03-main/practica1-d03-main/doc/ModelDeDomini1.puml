@@ -1,0 +1,99 @@
+@startuml
+
+
+object ubfilx
+object series {
+titol
+descripcio
+imatge
+primera emissio
+protagonistes
+tematica
+}
+
+
+object episodi {
+nom
+primera
+emissio
+temporada
+duracio
+VO
+descripcio
+}
+
+object director {
+nom
+nacionalitat
+}
+
+object productora {
+nom
+identificador
+adreça
+}
+object Client {
+nom
+correu
+adreça
+mobil
+}
+object usuari {
+icona
+nom
+}
+object Followers{
+quantitat
+}
+object Following{
+quantita
+}
+object bloqueig
+object missatge{
+usuari
+icona
+text
+data
+}
+object privat{
+identificador
+}
+
+object veureEpisodi
+object BaixarEpisodi
+object MyList
+object recomanades
+object estat
+object catalegDeSeries
+object Watching{
+vist
+}
+object valorar
+object cercarSerie
+
+
+
+ubfilx "1" -- "*" Client
+Client "1" <|- "5" usuari
+usuari <|- bloqueig
+Following "1" - "1" bloqueig:requereix
+usuari "1" <|- "1000" Followers
+usuari "1" <|- "200" Following
+ubfilx "1" -- "*" missatge
+missatge <|- privat
+ubfilx -- catalegDeSeries
+catalegDeSeries <|-  MyList
+catalegDeSeries <|- cercarSerie
+MyList  "1" -- "*" series
+MyList <|- recomanades
+series "1" <|- "*" episodi
+series -- estat
+estat <|- Watching
+episodi <|- director
+episodi <|- productora
+episodi <|- veureEpisodi
+episodi <|- BaixarEpisodi
+episodi -- estat
+episodi <|- valorar
+
+@enduml
